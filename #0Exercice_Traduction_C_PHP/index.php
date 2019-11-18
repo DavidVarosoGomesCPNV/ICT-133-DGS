@@ -39,6 +39,7 @@ for ($i = 0; $i < 10; $i++){
 
 }
 */
+// Avec While
 
 while($i < 10){
     $i++;

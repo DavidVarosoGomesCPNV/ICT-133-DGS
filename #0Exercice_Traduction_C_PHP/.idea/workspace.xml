@@ -21,7 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/php/php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
@@ -67,6 +67,9 @@
       <workItem from="1574083827299" duration="73000" />
       <workItem from="1574083910318" duration="140000" />
       <workItem from="1574084059683" duration="3000" />
+      <workItem from="1574084184929" duration="65000" />
+      <workItem from="1574084259575" duration="356000" />
+      <workItem from="1574085625015" duration="62000" />
     </task>
     <servers />
   </component>
@@ -91,18 +94,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/index.php</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
+          <line>43</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/index.php</url>
           <line>46</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/index.php</url>
           <line>50</line>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
