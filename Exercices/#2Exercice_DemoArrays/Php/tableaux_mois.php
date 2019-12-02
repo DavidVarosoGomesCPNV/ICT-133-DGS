@@ -1,6 +1,6 @@
 <html lang="fr">
 <head>
-    <link rel="stylesheet" type="text/css" href="Css/tableaux_mois.css">
+    <link rel="stylesheet" type="text/css" href="../Css/tableaux_mois.css">
     <title>Calendrier PHP</title>
 </head>
 
