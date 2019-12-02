@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="PHP Information" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -28,7 +29,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\#2Exercice_DemoArrays\Php\Css" />
+      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\#2Exercice_DemoArrays\Php" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +54,7 @@
     <configuration name="WebServeur" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8081">
       <method v="2" />
     </configuration>
-    <configuration name="DemoArrays.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DemoArrays.php">
+    <configuration name="DemoArrays.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Php/DemoArrays.php">
       <method v="2" />
     </configuration>
     <list>
@@ -70,7 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574669523851</updated>
       <workItem from="1574669526325" duration="1924000" />
-      <workItem from="1574686672115" duration="7048000" />
+      <workItem from="1574686672115" duration="7083000" />
+      <workItem from="1575270017843" duration="4098000" />
     </task>
     <servers />
   </component>

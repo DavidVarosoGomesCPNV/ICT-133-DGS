@@ -1,0 +1,26 @@
+/**
+ * #2Exercice_DemoArrays - tableaux_mois.css
+ *
+ * Initial version by : David-Manuel.VAROSO
+ * Initial version created on : 25.11.2019 14:17
+ */
+
+tr, td{
+    border:1px solid black;
+
+}
+
+.tableau {
+    width: 80%;
+    text-align: right;
+    height: 15px;
+
+}
+
+.bleu_td{
+    background-color:#558BC5;
+}
+
+.blanc_td{
+    background-color:white;
+}
