@@ -29,7 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#2Exercice_Array et string" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Php/Calendar_Layout.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
@@ -57,16 +57,16 @@
     <configuration name="WebServeur" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8081">
       <method v="2" />
     </configuration>
-    <configuration name="DemoArrays.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Php/DemoArrays.php">
+    <configuration name="Calendar_Layout.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Php/Calendar_Layout.php">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.WebServeur" />
-      <item itemvalue="PHP Script.DemoArrays.php" />
+      <item itemvalue="PHP Script.Calendar_Layout.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.DemoArrays.php" />
+        <item itemvalue="PHP Script.Calendar_Layout.php" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +84,8 @@
       <workItem from="1574686672115" duration="7083000" />
       <workItem from="1575270017843" duration="4842000" />
       <workItem from="1575290056765" duration="210000" />
-      <workItem from="1575290320553" duration="6773000" />
+      <workItem from="1575290320553" duration="6666000" />
+      <workItem from="1575297358062" duration="1465000" />
     </task>
     <servers />
   </component>

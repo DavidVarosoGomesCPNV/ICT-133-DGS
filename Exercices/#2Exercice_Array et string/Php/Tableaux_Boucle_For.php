@@ -1,11 +1,10 @@
 <html lang="fr">
 <head>
-    <link rel="stylesheet" type="text/css" href="../Css/tableaux_mois.css">
+    <link rel="stylesheet" type="text/css" href="../Css/Tableaux_Boucle_For.css">
     <title>Calendrier PHP</title>
 </head>
 
 <body>
-
 <?php
 // Déclaration du tableau
 $Tableau = array();
@@ -18,7 +17,7 @@ echo '<table class="tableau">';
 
 // Cartouche
 /**
- * #2Exercice_DemoArrays - tableaux_mois.php
+ * #2Exercice_DemoArrays - Tableaux_Boucle_For.php
  *
  * Initial version by : David-Manuel.VAROSO
  * Initial version created on : 25.11.2019 14:17
