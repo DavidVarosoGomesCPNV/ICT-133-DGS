@@ -7,6 +7,8 @@ Barre ou il y a le "Run", Ajouter/Edit configuration, "+", Built-In-Web
 Server, Nom "WebServer"
 	Host "localhost"
 	Port "8081"
+	"Fix" -> PHP language level 7.3
+		PHP Interpretor 7.3.9
 
 File > Settings > Deployement
 "+", "In-place", Web server URL = http://localhost:8081

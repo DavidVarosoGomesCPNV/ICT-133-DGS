@@ -29,7 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Php/Calendar_Layout.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#3ExerciceLogger - Step 1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
@@ -85,7 +85,11 @@
       <workItem from="1575270017843" duration="4842000" />
       <workItem from="1575290056765" duration="210000" />
       <workItem from="1575290320553" duration="6666000" />
-      <workItem from="1575297358062" duration="1465000" />
+      <workItem from="1575297358062" duration="1563000" />
+      <workItem from="1575474319307" duration="32000" />
+      <workItem from="1575537165690" duration="161000" />
+      <workItem from="1575896612655" duration="68000" />
+      <workItem from="1575898276702" duration="269000" />
     </task>
     <servers />
   </component>

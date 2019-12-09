@@ -26,7 +26,7 @@ $tableauMois = array(
     echo '<li class="prev">&#10094;</li>';
     echo '<li class="next">&#10095;</li>';
     // Affichage du mois dynamiqueent avec la fonction date de php "m" avec un -1 car on utilise un tableau donc index 0
-    echo $tableauMois[date("m") - 1];
+    echo $tableauMois[date("m") -1];
     echo '<br>';
     // Affiche l'année avec le format date php
     echo(date("o"));

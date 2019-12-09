@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c9764fe-77ff-46f5-96b8-234aac807cfb" name="Default Changelist" comment="" />
+    <list default="true" id="7bbab2b7-f8fd-4d43-b331-52afd22c8e1b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,32 +13,22 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="PHP Information" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Interpretor" />
-  <component name="ProjectId" id="1U6FaJ2bdewJwak1xeCaLdGfsF5" />
+  <component name="ProjectId" id="1UYdBSAeYacO8PWJlb55mA8VLFn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#2Exercice_Array et string" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../#2Exercice_Array et string/Php/Calendar_Layout.php" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\#2Exercice_DemoArrays" />
-      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\#2Exercice_DemoArrays\Php\Css" />
-      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\#2Exercice_DemoArrays\Php" />
+      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\Step 01 Logger\Step 01 - Exercice Logger\log" />
+      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\Step 01 Logger\Step 01 - Exercice Logger\php" />
+      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Exercices\Step 01 Logger\Step 01 - Exercice Logger" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,38 +43,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.WebServeur">
-    <configuration name="WebServeur" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8081">
+  <component name="RunManager">
+    <configuration name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8081">
       <method v="2" />
     </configuration>
-    <configuration name="DemoArrays.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Php/DemoArrays.php">
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="PHP Built-in Web Server.WebServeur" />
-      <item itemvalue="PHP Script.DemoArrays.php" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.DemoArrays.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c9764fe-77ff-46f5-96b8-234aac807cfb" name="Default Changelist" comment="" />
-      <created>1574669523851</created>
+      <changelist id="7bbab2b7-f8fd-4d43-b331-52afd22c8e1b" name="Default Changelist" comment="" />
+      <created>1575537326852</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574669523851</updated>
-      <workItem from="1574669526325" duration="1924000" />
-      <workItem from="1574686672115" duration="7083000" />
-      <workItem from="1575270017843" duration="4842000" />
-      <workItem from="1575290056765" duration="210000" />
-      <workItem from="1575290320553" duration="6773000" />
+      <updated>1575537326852</updated>
+      <workItem from="1575537328272" duration="177000" />
+      <workItem from="1575877333712" duration="2075000" />
+      <workItem from="1575879426313" duration="1881000" />
+      <workItem from="1575896742911" duration="1507000" />
+      <workItem from="1575898562878" duration="7000" />
     </task>
     <servers />
   </component>

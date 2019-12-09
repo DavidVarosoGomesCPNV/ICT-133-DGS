@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="ICT-133-DGS">
+  <component name="PublishConfigData" serverName="WebServer">
     <serverData>
-      <paths name="ICT-133-DGS">
+      <paths name="WebServer">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

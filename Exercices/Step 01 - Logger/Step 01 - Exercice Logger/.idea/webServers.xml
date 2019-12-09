@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f68b9778-b205-4a39-adac-8870775e878a" name="ICT-133-DGS" url="http://localhost:8082">
+      <webServer id="bda6f75a-0ef0-4852-b4ac-755831fc4249" name="WebServer" url="http://localhost:8081">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
