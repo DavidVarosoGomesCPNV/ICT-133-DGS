@@ -30,6 +30,7 @@ for ($i = 0; $i <= 3; $i++) {
     echo $browsers[$i];
     echo "<br>";
 
+
 }
 
 //</editor-fold>
@@ -45,14 +46,26 @@ $contactInfo= array(
 
 // assign the city ("Yverdon") to $Home
 //TODO - il vous faut coder ici
+$Home = $contactInfo['City'];
+// Test pour vérifier que $Home = Yverdon
+// echo $Home;
+
 
 // Replaces 'John Doe' with 'Jane Doe'
 //TODO - il vous faut coder ici
+$contactInfo['name'] = 'Jane Doe';
+// Test pour vérifier que sa a changer
+// echo $contactInfo['name'];
 
 // Loop through an Associated Array
 $completedContact="";
 // foreach ($contactInfo as $element){
     //TODO - il vous faut coder ici
+foreach ($contactInfo as $element){
+    echo "<br>";
+    echo $element;
+
+}
 
 //</editor-fold>
 
@@ -66,9 +79,21 @@ $people= array(
 
 // assign "Joe" to $person
 //TODO - il vous faut coder ici
+$person = $people[2][0];
+/* Test valeur
+echo "<br>";
+echo "<br>";
+echo $person;
+*/
 
 // Replaces 'Bart' with 'Lisa'
 //TODO - il vous faut coder ici
+$people [1][2] = 'Lise';
+/* Test valeur
+echo "<br>";
+echo "<br>";
+echo $people [1][2];
+*/
 
 
 // Loop through an Two-dimensional Array
@@ -77,4 +102,18 @@ $colLength = count($people[0]);     //Assign the number of Elements (columns) of
 $personList="";                     // Initialise the string $PersonList
 
 //TODO - il vous faut coder ici
+//tant qu'il n'aura pas prit toute les ligne du tableau $people il ne s'aretera pas
+for($i=0;$i<$rowLength;$i++){
+    echo "<br>";
+    //tant qu'il n'aura pas prit chaque valeur d'une ligne du tableau $people il ne s'aretera pas
+    for( $j=0;$j<$colLength;$j++){
+        $personList=$personList.$people[$i][$j].' / ';//$personList va est egale a chaque valeur d'une ligne du tableau $people
+    }
+
+}
+echo $personList;
+
+
+
+
 //</editor-fold>

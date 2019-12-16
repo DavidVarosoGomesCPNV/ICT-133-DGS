@@ -28,6 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#2Exercice_Array et string/Php/Calendar_Layout.php" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
@@ -58,7 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1575899683847</updated>
       <workItem from="1575899686386" duration="10000" />
-      <workItem from="1575899739375" duration="2415000" />
+      <workItem from="1575899739375" duration="2915000" />
+      <workItem from="1576481807403" duration="372000" />
+      <workItem from="1576482421830" duration="3455000" />
     </task>
     <servers />
   </component>
