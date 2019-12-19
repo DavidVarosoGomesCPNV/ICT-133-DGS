@@ -21,7 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,6 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576501689260</updated>
       <workItem from="1576501690418" duration="6042000" />
+      <workItem from="1576740102055" duration="1494000" />
+      <workItem from="1576741648682" duration="84000" />
     </task>
     <servers />
   </component>
@@ -67,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

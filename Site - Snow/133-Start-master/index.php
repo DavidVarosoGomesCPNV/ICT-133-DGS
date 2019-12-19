@@ -1,16 +1,11 @@
 <?php
 /**
- * 133-Start-master - index.php
- *
- * Initial version by : David-Manuel.VAROSO
- * Initial version created on : 16.12.2019 14:23
- *
  * Created By PhpStrom.
- * User : David Gomes
+ * Title : 133-Start-master - atest.php
+ * User : David-Manuel.VAROSO
  * Date : 16.12.2019
- * Time : 14:23
+ * Time : 14:47
  */
-
 
 /* require est une sorte de librarie comme en C
 Il y a 4 moyens d'appeler des fichier dans php : include, require, include-once, require-once
