@@ -14,6 +14,15 @@
 function home(){
     $_GET['action']="home";
     require "view/home.php";
-
-
 }
+
+function login(){
+    $_GET['action']='login';
+    require "view/login.php";
+}
+
+function products(){
+    $_GET['action']='products';
+    require "view/products.php";
+}
+

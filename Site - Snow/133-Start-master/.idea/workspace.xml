@@ -21,6 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -58,6 +59,9 @@
       <workItem from="1576501690418" duration="6042000" />
       <workItem from="1576740102055" duration="1494000" />
       <workItem from="1576741648682" duration="84000" />
+      <workItem from="1576743188690" duration="18000" />
+      <workItem from="1578296004254" duration="3785000" />
+      <workItem from="1578315199566" duration="6890000" />
     </task>
     <servers />
   </component>
