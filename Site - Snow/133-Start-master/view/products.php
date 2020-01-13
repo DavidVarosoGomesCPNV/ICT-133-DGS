@@ -11,12 +11,18 @@
 // tampon de flux stocké en mémoire
 ob_start(); // Ouvre la mémoire tampon , tout ce qui est après ob_start sera dans la variable tampon
 $titre = "Rent A Snow - Acceuil"
+
+
 ?>
+
+
 
 <br>
 <br>
 
 Test Produits
+
+
 
 
 

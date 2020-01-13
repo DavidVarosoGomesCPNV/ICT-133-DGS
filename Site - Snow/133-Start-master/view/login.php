@@ -10,8 +10,11 @@
 
 // tampon de flux stocké en mémoire
 ob_start(); // Ouvre la mémoire tampon , tout ce qui est après ob_start sera dans la variable tampon
-$titre = "Rent A Snow - Acceuil"
+$titre = "Rent A Snow - Acceuil";
+
+
 ?>
+
 
 <br>
 <br>
@@ -24,12 +27,12 @@ $titre = "Rent A Snow - Acceuil"
         <div class="container">
             <label for="uname"><b>Username</b></label>
             <label>
-                <input type="text" placeholder="Enter Email Adress" name="uname" required>
+                <input type="text" placeholder="Enter Email Adress" name="email" required>
             </label>
 
             <label for="psw"><b>Password</b></label>
             <label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" name="password" required>
             </label>
 
             <button type="submit">Login</button>
