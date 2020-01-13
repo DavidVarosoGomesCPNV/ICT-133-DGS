@@ -66,8 +66,14 @@
             <div class="span12">
 
                 <div id="divLogo" class="pull-left">
-                    <a href="index.html" id="divSiteTitle">Rent A Snow</a><br/>
-                    <a href="index.html" id="divTagLine">La glisse à moindre coût</a>
+                    <a href="/index.php" id="divSiteTitle">Rent A Snow</a><br/>
+                    <a href="/index.php" id="divTagLine">La glisse à moindre coût</a>
+                    <br>
+                    <br>
+                    <?php
+                    if (isset($_SESSION['element'])) : ?>
+                        <label> <?php echo 'Connecté en tant que ' . $_SESSION['element']; ?></label>
+                    <?php endif ?>
                 </div>
 
                 <div id="divMenuRight" class="pull-right">
@@ -77,23 +83,36 @@
                             NAVIGATION <span class="icon-chevron-down icon-white"></span>
                         </button>
 
-
+                        <!-- IF's pour le menu -->
                         <div class="nav-collapse collapse">
                             <ul class="nav nav-pills ddmenu">
+
+                                <!-- If pour home -->
                                 <li <?php if (($_GET['action'] == "home" || (!isset($_GET['action'])))) : ?>
                                     class="active"
                                 <?php endif ?>>
-                                    <a href="index.php?action=home">Acceuil</a></li>
+                                    <a href="/index.php?action=home">Acceuil</a></li>
 
-                                <li <?php if (($_GET['action'] == "login" || (!isset($_GET['action'])))) : ?>
-                                    class="active"
-                                <?php endif ?>>
-                                    <a href="index.php?action=login">Login</a></li>
+                                <!-- If login / logout -->
+                                <!-- Logout -->
+                                <?php if (isset($_SESSION['element'])) : ?>
+                                    <li><a href="/index.php?action=logout">Logout</a></li>
+                                    <!-- Login -->
+                                <?php else: ?>
+                                    <!-- classe active pour login -->
+                                    <li
+                                        <?php if (($_GET['action'] == "login" || (!isset($_GET['action'])))) : ?>
+                                            class="active"
+                                        <?php endif ?>>
+                                        <a href="/index.php?action=login">Login</a></li>
+                                <?php endif ?>
 
+                                <!-- If pour produits -->
                                 <li <?php if (($_GET['action'] == "products" || (!isset($_GET['action'])))) : ?>
                                     class="active"
                                 <?php endif ?>>
-                                    <a href="index.php?action=products">Produits</a></li>
+                                    <a href="/index.php?action=products">Produits</a></li>
+
                             </ul>
                         </div>
                     </div>

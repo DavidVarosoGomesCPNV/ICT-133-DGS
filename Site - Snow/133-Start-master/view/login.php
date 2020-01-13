@@ -15,6 +15,13 @@ $titre = "Rent A Snow - Acceuil";
 
 ?>
 
+<?php
+    if (isset($_SESSION['element'])) {
+    echo "<br>";
+    echo 'Vous êtes connecté en tant que '. $_SESSION['element'];
+}
+
+?>
 
 <br>
 <br>

@@ -39,15 +39,26 @@ function login($post)
     $_GET['action'] = 'login';
     // Vérifie que les champs email et password sont remplis correctement par rapport a la fonction checkLogin présente dans model
     if (checkLogin($email, $password)) {
-
+        $_SESSION['element']=$post['email'];
         $_SESSION['elementt']=$post['password'];
+        /**
         echo $_SESSION['element'];
+        echo $_SESSION['elementt'];
+         */
+
         require "view/home.php";
 
     } else
         // Si sa return false il retourne sur la page login
        require "view/login.php";
 
+}
+
+// Logout
+
+function logout(){
+    $_SESSION =  session_destroy();
+    home();
 }
 
 /** Function for products */
