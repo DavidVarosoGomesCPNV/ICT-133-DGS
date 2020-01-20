@@ -54,9 +54,10 @@ function login($post)
 
 }
 
-// Logout
+/** fonction pour le Logout du site  */
 
 function logout(){
+    /** Détruit ce que ce trouve dans $_SESSION avec le session_destroy puis renvoie l'utilisateur sur home */
     $_SESSION =  session_destroy();
     home();
 }
@@ -68,4 +69,9 @@ function products()
     require "view/products.php";
 }
 
+function register()
+{
+    $_GET['action'] = 'register';
+    require "view/register.php";
+}
 

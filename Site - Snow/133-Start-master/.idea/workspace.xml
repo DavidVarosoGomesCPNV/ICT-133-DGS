@@ -26,8 +26,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Site - Snow\133-Start-master\model" />
       <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Site - Snow\133-Start-master\view" />
+      <recent name="C:\xampp\htdocs\GitHub\ICT-133-DGS\Site - Snow\133-Start-master\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +63,9 @@
       <workItem from="1576743188690" duration="18000" />
       <workItem from="1578296004254" duration="3785000" />
       <workItem from="1578315199566" duration="6890000" />
-      <workItem from="1578899953678" duration="12315000" />
+      <workItem from="1578899953678" duration="12357000" />
+      <workItem from="1579503713984" duration="724000" />
+      <workItem from="1579505611079" duration="3712000" />
     </task>
     <servers />
   </component>

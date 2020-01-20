@@ -111,8 +111,14 @@
                                 <li <?php if (($_GET['action'] == "products" || (!isset($_GET['action'])))) : ?>
                                     class="active"
                                 <?php endif ?>>
-                                    <a href="/index.php?action=products">Produits</a></li>
-
+                                    <?php if (isset($_SESSION['element'])) : ?>
+                                        <a href="/index.php?action=products">Produits</a>
+                                    <?php endif ?>
+                                </li>
+                                <li>
+                                    <?php if (!isset($_SESSION['element'])) : ?>
+                                    <a href="/index.php?action=register"> Register</a></li>
+                            <?php endif ?>
                             </ul>
                         </div>
                     </div>

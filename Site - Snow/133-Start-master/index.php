@@ -28,6 +28,9 @@ if (isset($_GET['action'])){
         case 'logout' :
             logout();
             break;
+        case 'register' :
+            register();
+            break;
         case 'products' :
             products();
             break;
