@@ -1,0 +1,53 @@
+[
+  {
+    "code": "B101",
+    "brand":"Burton",
+    "model": "Custonm",
+    "length": "160 cm",
+    "price":"29.-/jour",
+    "qtyAvailable":"22"
+
+  },
+  {
+    "code": "B126",
+    "brand":"Burton",
+    "model": "Free Thinker",
+    "length": "165 cm",
+    "price":"29.-/jour",
+    "qtyAvailable":"1"
+
+  },
+  {
+    "code": "B237",
+    "brand":"Burton",
+    "model": "Day Trader",
+    "length": "155 cm",
+    "price":"25.-/jour",
+    "qtyAvailable":"1"
+
+  },
+  {
+    "code": "K266",
+    "brand":"K2",
+    "model": "Wildhead",
+    "length": "152 cm",
+    "price":"29.-/jour",
+    "qtyAvailable":"66"
+  },
+  {
+    "code": "N100",
+    "brand":"Niedecker",
+    "model": "Tracer",
+    "length": "164 cm",
+    "price":"39.-/jour",
+    "qtyAvailable":"1"
+  },
+  {
+    "code": "N754",
+    "brand":"Niedecker",
+    "model": "Ultralight",
+    "length": "166 cm",
+    "price":"59.-/jour",
+    "qtyAvailable":"5"
+  }
+]

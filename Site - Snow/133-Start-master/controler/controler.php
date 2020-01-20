@@ -7,13 +7,9 @@
  * Time : 14:50
  */
 
-/**
- * Function to redirect the user to the home page
- * (depending on the action received by the index)
- */
 
 /**
- * Ouvre la session, il s'agit d'une fonciton de base de PHP
+ * Open the session, basic php function
  */
 session_start();
 
@@ -32,19 +28,16 @@ function login($post)
     $_GET['action']="login";
 
 
-    /** récupere la valeur du login avec le $POST */
+    /** get the value of the login with the $POST */
     $email = @$_POST['email']; // Récupère ce que l'utilisateur rentre dans le formulaire champ email de la page login avec la méthode post
     $password = @$_POST['password']; // Pareil pour le champ password
 
     $_GET['action'] = 'login';
     // Vérifie que les champs email et password sont remplis correctement par rapport a la fonction checkLogin présente dans model
-    if (checkLogin($email, $password)) {
+    if (checkLogin($email,$password)) {
         $_SESSION['element']=$post['email'];
         $_SESSION['elementt']=$post['password'];
-        /**
-        echo $_SESSION['element'];
-        echo $_SESSION['elementt'];
-         */
+
 
         require "view/home.php";
 
@@ -54,10 +47,11 @@ function login($post)
 
 }
 
-/** fonction pour le Logout du site  */
+
+/** fonction for the Logout */
 
 function logout(){
-    /** Détruit ce que ce trouve dans $_SESSION avec le session_destroy puis renvoie l'utilisateur sur home */
+    /** Destroy what is in $ _SESSION with the session_destroy then send the user back to home */
     $_SESSION =  session_destroy();
     home();
 }
@@ -69,9 +63,28 @@ function products()
     require "view/products.php";
 }
 
+/** Function for register */
 function register()
 {
+    // Writes in the JSON file stockageRegister but doesn't create a USER 
     $_GET['action'] = 'register';
+    $JsonFile = "model/stockageRegister.json";
+
+    $data = array(
+      "Utilisateur" =>@$_POST['email'],
+      "Password" =>@$_POST['password']
+
+    );
+
+    $JsonContent = json_encode($data);
+    file_put_contents($JsonFile,$JsonContent);
+
+   echo $JsonContent;
+
+
+
     require "view/register.php";
 }
+
+
 

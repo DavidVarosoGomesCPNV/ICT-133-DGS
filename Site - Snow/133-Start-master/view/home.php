@@ -98,8 +98,9 @@ $tableauMois = array(
         // Début de la boucle pour l'affichage des 31 jours
 
         // Boucle pour faire en sorte que les jours "Lun,Mar, etc," correspondent au bon chiffre du tableau
-        //
-        for ($i = 1; $i < 8 - date("N"); $i++) {
+
+        /** A AMELIORER POUR QUE LA BOUCLE DES JOURS SOIT DYNAMIQUE */
+        for ($i = 1; $i < 4 - date("N"); $i++) {
             echo '<li></li>';
 
         }

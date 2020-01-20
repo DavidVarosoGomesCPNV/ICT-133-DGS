@@ -13,6 +13,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -65,7 +72,8 @@
       <workItem from="1578315199566" duration="6890000" />
       <workItem from="1578899953678" duration="12357000" />
       <workItem from="1579503713984" duration="724000" />
-      <workItem from="1579505611079" duration="3712000" />
+      <workItem from="1579505611079" duration="4432000" />
+      <workItem from="1579524160791" duration="9977000" />
     </task>
     <servers />
   </component>
