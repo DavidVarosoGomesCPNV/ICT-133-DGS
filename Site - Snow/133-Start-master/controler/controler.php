@@ -25,7 +25,7 @@ function home()
 /** Function for login */
 function login($post)
 {
-    $_GET['action']="login";
+    $_GET['action'] = "login";
 
 
     /** get the value of the login with the $POST */
@@ -34,25 +34,26 @@ function login($post)
 
     $_GET['action'] = 'login';
     // Vérifie que les champs email et password sont remplis correctement par rapport a la fonction checkLogin présente dans model
-    if (checkLogin($email,$password)) {
-        $_SESSION['element']=$post['email'];
-        $_SESSION['elementt']=$post['password'];
+    if (checkLogin($email, $password)) {
+        $_SESSION['element'] = $post['email'];
+        $_SESSION['elementt'] = $post['password'];
 
 
         require "view/home.php";
 
     } else
         // Si sa return false il retourne sur la page login
-       require "view/login.php";
+        require "view/login.php";
 
 }
 
 
 /** fonction for the Logout */
 
-function logout(){
-    /** Destroy what is in $ _SESSION with the session_destroy then send the user back to home */
-    $_SESSION =  session_destroy();
+function logout()
+{
+    /** Destroy what is in $_SESSION with the session_destroy then send the user back to home */
+    $_SESSION = session_destroy();
     home();
 }
 
@@ -71,16 +72,16 @@ function register()
     $JsonFile = "model/stockageRegister.json";
 
     $data = array(
-      "Utilisateur" =>@$_POST['email'],
-      "Password" =>@$_POST['password']
+        "Utilisateur" => @$_POST['email'],
+        "Password" => @$_POST['password']
 
     );
 
     $JsonContent = json_encode($data);
-    file_put_contents($JsonFile,$JsonContent);
+    file_put_contents($JsonFile, $JsonContent);
 
-   echo $JsonContent;
-
+    // echo pour tester si les valeurs rentrent bien dans le JSON
+    // echo $JsonContent;
 
 
     require "view/register.php";

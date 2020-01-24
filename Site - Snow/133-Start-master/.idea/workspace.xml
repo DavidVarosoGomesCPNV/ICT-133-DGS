@@ -23,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="1beec4ac-230c-432d-84e9-b2b6f409d3fb" name="localhost" port="8081" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP Interpretor" />
   <component name="ProjectId" id="1V49qLbuxWMOBF02lShm1uZKufB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -74,6 +80,10 @@
       <workItem from="1579503713984" duration="724000" />
       <workItem from="1579505611079" duration="4432000" />
       <workItem from="1579524160791" duration="9977000" />
+      <workItem from="1579592120353" duration="689000" />
+      <workItem from="1579783668601" duration="776000" />
+      <workItem from="1579784665185" duration="181000" />
+      <workItem from="1579785384119" duration="1299000" />
     </task>
     <servers />
   </component>

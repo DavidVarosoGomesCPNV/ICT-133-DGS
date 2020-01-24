@@ -27,12 +27,12 @@ $parsed_json = json_decode($json, true);
             <th><h3 style="background-color: #aeb5b4">Lenght</h3></th>
             <th><h3 style="background-color: #aeb5b4">Price</h3></th>
         </tr>
-        <!-- Passage en PHP pour le foreach qui affiche le tableau -->
+        <!-- Passage en PHP pour le foreach qui affiche le tableau des produits-->
         <?php
         foreach ($parsed_json as $v) {
 
             echo "<tr>";
-            echo '<td align="center" bgcolor="#AEB5B4">' . $v['brand'] . '</DIV>';
+            echo '<td align="center" bgcolor="#AEB5B4">' . $v['brand'];
             echo "</td>";
             //deuxieme colonne
             echo '<td align="center" bgcolor="#AEB5B4">' . $v['model'];

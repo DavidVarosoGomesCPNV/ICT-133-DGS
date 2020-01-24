@@ -99,7 +99,7 @@ $tableauMois = array(
 
         // Boucle pour faire en sorte que les jours "Lun,Mar, etc," correspondent au bon chiffre du tableau
 
-        /** A AMELIORER POUR QUE LA BOUCLE DES JOURS SOIT DYNAMIQUE */
+        /** A AMELIORER SI POSSIBLE POUR QUE LA BOUCLE DES JOURS SOIT DYNAMIQUE */
         for ($i = 1; $i < 4 - date("N"); $i++) {
             echo '<li></li>';
 

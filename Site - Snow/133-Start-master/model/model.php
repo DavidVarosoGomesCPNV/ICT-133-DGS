@@ -26,6 +26,8 @@ function checkLogin($element,$elementt){
 
 
 /*
+ * Fonction pour ajouter un utilisateur avec le register *NON FONCTIONEL*
+ *
 function checkLogin($element,$elementt)
 {
     $JsonContent = json_decode("/model/stockageRegister.json");
