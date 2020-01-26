@@ -4,6 +4,26 @@
     <title>Ah</title>
 </head>
 <body>
+
+<form method="GET" action="Calendar_Layout.php">
+    <select name="mois">
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>Jully</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+    <br>
+    <input type="submit">
+</form>
+
 <?php
 /**
  * #2Exercice_DemoArrays - Calendar_Layout.php
@@ -13,25 +33,43 @@
  */
 
 // Tableaux simple avec les mois de l'année
-$tableauMois = array(
-    'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
+$tableauMois = array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December'
 );
 
 ?>
 <!-- Passage en HTML pour l'affichage de l'en-tête avec le mois et l'année -->
+
+
 <div class="month">
+
     <?php
-    // Création de l'en-tête
-    echo '<ul>';
-    echo '<li class="prev">&#10094;</li>';
-    echo '<li class="next">&#10095;</li>';
-    // Affichage du mois dynamiqueent avec la fonction date de php "m" avec un -1 car on utilise un tableau donc index 0
-    echo $tableauMois[date("m") -1];
-    echo '<br>';
-    // Affiche l'année avec le format date php
-    echo(date("o"));
-    echo '</li>';
-    echo '</ul>';
+
+/*Fonction pour les mois avec les jours dynamiques
+     Jours dynamiques selon mois non implementé
+*/
+
+
+    function showMonth($element){
+        echo $element;
+        echo"<br>";
+        echo"2020";
+    }
+
+    $Mois = @$_GET['mois'];
+
+    if (isset($Mois)) {
+        for($i=0;$i<12;$i++){
+            switch ($Mois) {
+                case $tableauMois[$i]:
+                    showMonth($Mois);
+                    break;
+            }
+        }
+
+    }
+    else
+        echo date("F")."<br>"."2020";
+
     ?>
 </div>
 
@@ -61,13 +99,16 @@ $tableauMois = array(
     <?php
     // Déclaraition du tableau
     $Tableau = array();
+
+
     // Début de la boucle pour l'affichage des 31 jours
 
     // Boucle pour faire en sorte que les jours "Lun,Mar, etc," correspondent au bon chiffre du tableau
-    //
-    for ($i = 1; $i < 8 - date("N"); $i++) {
-        echo '<li></li>';
+    $boucle = 0;//variable de bouclage
 
+    while ( $boucle<= 8-date("N") ) {
+        echo "<li></li>";
+        $boucle++;
     }
 
 
@@ -80,15 +121,16 @@ $tableauMois = array(
             // Active la classe "active" dans la case du tableau [$i] égale au chiffre du format date
             echo '<li><span class="active">' . $Tableau[$i] . '</span>';
 
-        }
-        else {
+        } else {
             // Else sa met just un li et affiche le reste du tableau
             echo '<li>';
             echo $Tableau[$i];
         }
 
-
     }
+
+
+
 
     ?>
 </ul>
